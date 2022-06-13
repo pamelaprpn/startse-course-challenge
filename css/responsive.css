@@ -60,12 +60,12 @@
         padding: 0px;
         width: 100%;
         color: white;
-        background-color: #0080ed;
+        background-color:#f3b90bfb;
         border-radius: 5px;
     }
 
     .menu>li:not(:last-child) {
-        border-bottom: 1px solid white;
+        border-bottom: 1px solid purple;
     }
 
     .menu li a {
@@ -90,7 +90,7 @@
         display: block;
         height: 5px;
         width: 100%;
-        background: white;
+        background: purple;
         border-radius: 30px;
         transition: 0.25s ease-in-out;
     }

@@ -16,7 +16,7 @@ body {
 /* HEADER */
 
 header {
-    background-color: #0080ed;
+    background-color: #f3b90bde;
 }
 
 header .container{
@@ -38,7 +38,7 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: white;
+    color: rgb(90, 9, 136);
     text-transform: uppercase;
     font-size: 18px;
     padding: 24px;
@@ -46,11 +46,12 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background: rgba(255,255,255,0.15);
+    background: rgb(197, 149, 3);
+   
 }
 
 header .container img{
-    height: 30px;
+    height: 50px;
 }
 
 #checkbox-menu{
@@ -60,6 +61,7 @@ header .container img{
 /* MAIN */
 main {
     margin-bottom: 100px;
+    background-color: #9d4ccb;
 }
 
 main .container-main{
@@ -67,18 +69,19 @@ main .container-main{
     align-items: center;
     justify-content: space-between;
     max-width: 980px;
-    margin: 100px auto 0px auto;
+    margin: 0px auto 0px auto;
 }
 
 h2{
-    color: rgb(0,0,0);
+    color: yellow;
     font-size: 45px;
     line-height: 50px;
     font-weight: bold;
+    margin-top: 20px;
 }
 
 h3{
-    color: rgb(131,131,131);
+    color: rgb(196, 197, 113);
     font-size: 20px;
     line-height: 28px;
     margin: 10px 0;
@@ -95,11 +98,12 @@ form input {
     height: 45px;
     margin-bottom: 13px;
     border-radius: 20px;
-    border: 2px solid #0080ed;
+    border: 2px solid rgb(211, 136, 38);
 }
+
 form [type="submit"] {
-    background-color: #0080ed;
-    color: white;
+    background-color: #f3b90bfb;
+    color: purple;
     width: 150px;
     padding-left: 0px;
     font-size: 16px;
@@ -107,15 +111,18 @@ form [type="submit"] {
 }
 form [type="submit"]:hover {
     cursor: pointer;
-    background-color: rgba(0,128,237,0.75);
+    background-color: rgb(197, 149, 3);
     transform: translateY(-2px);
 }
 
 main .container-main img{
     width: 600px;
+    opacity: 50%;
+    
 }
 
 /* CARDS */
+
 
 a {
     text-decoration: none;
@@ -128,6 +135,7 @@ a {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 20px;
+    
 }
 
 .text--medium{
