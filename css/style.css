@@ -152,6 +152,7 @@ a {
     box-shadow: 5px 5px 15px -4px #000000;
     transition: all 0.3s ease 0s;
     border-radius: 10px;
+    background-color: #dec57adf;
 }
 
 .card:hover{
@@ -183,13 +184,5 @@ a {
     margin-bottom:0px;
 }
 
-.desafio {
-    font-size: 100px;
-    display: flex;
-    justify-content: center;
-    height:400px;
-    align-items: center;
-    border: 1px solid black;
-    margin: 100px auto;
-    max-width: 980px;
-}
+
+
