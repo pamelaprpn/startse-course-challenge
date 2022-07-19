@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>StartSe</title>
+    <title>Astrologia</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
@@ -57,6 +57,7 @@
             <img src="./images/astro2.png" alt="">
         </div>
     </main>
+
     <section id="signs" class="cards">
         <a href="https://astrologialuzesombra.com.br/signo-de-aries-caracteristicas-e-influencias/">
             <div class="card">
@@ -275,21 +276,30 @@
             </div>
         </a>
     </section>
-    <section id="form">
-        <h1>Ficou ainda com dúvidas? Entre em contato conosco!!</h1>
-        <form class="form-contact" action="#" name="contact" id="form-contato">
-            <p><label for="nome">Nome:*
-                    <input class="form-group" type="text" name="name" id="nome" placeholder="Nome completo"></label></p>
-            <p><label for="email">E-mail:*
-                    <input class="form-group" type="text" name="email" id="e-mail" placeholder="E-mal"></label></p>
-            <p><label for="assunto">Assunto:*
-                    <input class="form-group" type="text"></label></p>
-            <p><label for="mensagem">Mensagem:*
-                    <textarea class="form-group" name="message" id="mensagem" cols="30" rows="10"></textarea> </label></p>
-            <p><label for="enviar">
-                    <input class="form-group" type="submit" name="submit" id="enviar">Enviar </label></p>
-        </form>
+
+
+    <section id="contact" class="form-contact">
+        <div class="container-form">
+            <h2>Entre em contato conosco!!</h2>
+            <form class="form-contact" action="#" name="contact" id="form-contato">
+                <p><label for="nome">Nome:*
+                        <input class="form-group" type="text" name="name" id="nome" placeholder="Nome completo"></label></p>
+                <p><label for="email">E-mail:*
+                        <input class="form-group" type="text" name="email" id="e-mail" placeholder="E-mail"></label></p>
+                <p>Assunto:*<select class="form-group" name="assunto" id="assunto" required>
+                    <option value="none">Escolha uma opção</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="sugestão">Sugestão</option>
+                    <option value="reclamacao">Reclamação</option>
+                  </select></p>
+                <p><label for="mensagem">Mensagem:*
+                        <textarea class="form-group" name="message" id="mensagem" cols="30" rows="10"></textarea> </label></p>
+                
+                <input class="button-contact" type="submit" value="Enviar"/>
+            </form>
+        </div>
     </section>
+    
 </body>
 
 </html>

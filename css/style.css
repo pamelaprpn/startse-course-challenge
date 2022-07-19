@@ -135,6 +135,7 @@ a {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 20px;
+    padding-bottom: 100px;
     
 }
 
@@ -183,6 +184,70 @@ a {
 .title{
     margin-bottom:0px;
 }
+
+
+/*Form Contatos*/
+.container-form{
+    background-color: #9d4ccb;
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+    max-width: 980px;
+    
+}
+.container-form p{
+    color: yellow;
+    
+}
+
+select{
+    width: 380px;
+    padding-left: 100px;
+    font-size: 18px;
+    height: 45px;
+    margin-bottom: 13px;
+    border-radius: 20px;
+    border: 2px solid rgb(211, 136, 38);
+}
+
+textarea{
+    width: 380px;
+    padding-left: 15px;
+    font-size: 18px;
+    height: 150px;
+    margin-bottom: 13px;
+    border-radius: 20px;
+    border: 2px solid rgb(211, 136, 38);
+}
+
+option{
+    color: rgb(211, 136, 38);
+    padding-left: 0%;
+}  
+
+.form-group{
+    display: flex;
+    align-items: center;
+    color:rgb(132, 129, 129);
+}
+
+.button-contact {
+    background-color: #f3b90bfb;
+    color: purple;
+    width: 150px;
+    padding-left: 0px;
+    font-size: 16px;
+    height: 40px;
+}
+.button-contact:hover {
+    cursor: pointer;
+    background-color: rgb(197, 149, 3);
+    transform: translateY(-2px);
+}
+
+
+
+
 
 
 
